@@ -1,0 +1,11 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#EAF1FC"/>
+  <rect x="80" y="80" width="1440" height="840" rx="28" fill="#DCE7F7" stroke="#B9CBE5" stroke-width="4"/>
+  <circle cx="490" cy="430" r="170" fill="#C4D5EC"/>
+  <rect x="390" y="590" width="230" height="190" rx="26" fill="#B7CAE5"/>
+  <rect x="760" y="280" width="540" height="70" rx="14" fill="#C6D8EF"/>
+  <rect x="760" y="390" width="430" height="54" rx="12" fill="#CCDDF1"/>
+  <rect x="760" y="485" width="490" height="54" rx="12" fill="#CCDDF1"/>
+  <rect x="760" y="610" width="270" height="78" rx="39" fill="#1F6FEB"/>
+  <text x="790" y="658" fill="#F7FBFF" font-size="34" font-family="Arial, sans-serif" font-weight="700">Trainer Hero Photo</text>
+</svg>
