@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Book a consultation with Ethan Cole Strength Coaching in Toronto. In-person coaching at Fortis Fitness and Fit Squad Training Gym."
+    />
+    <title>Contact Ethan Cole | Toronto Strength Coaching</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=5" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html#home">Ethan Cole</a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="./programs.html">Programs</a>
+          <a href="./about.html">About</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./faq.html">FAQ</a>
+          <a href="./contact.html" aria-current="page">Contact</a>
+        </nav>
+        <div class="header-right">
+          <div class="club-links" aria-label="Training locations">
+            <a href="./about.html#locations">Fortis Fitness</a>
+            <a href="./about.html#locations">Fit Squad</a>
+          </div>
+          <a class="btn btn-primary header-cta" href="#contact-form">Book a Free Consultation</a>
+          <a class="btn btn-primary mobile-header-cta" href="#contact-form">Book</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-page section">
+        <div class="container contact-page-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h1><span class="nowrap">Book your free</span><br />consultation.</h1>
+            <p class="hero-subhead">
+              Tell me your goal, current training level, and preferred format. I will review it and map the clearest next step for your strength or physique plan.
+            </p>
+            <ul class="hero-support-list" aria-label="Contact highlights">
+              <li>20-minute consultation</li>
+              <li>In-person, hybrid, or online</li>
+              <li>Fortis Fitness + Fit Squad</li>
+            </ul>
+          </div>
+
+          <aside class="form-card contact-page-form" id="contact-form">
+            <form>
+              <label>
+                Name
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+              <label>
+                Phone
+                <input type="tel" name="phone" autocomplete="tel" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label>
+                Goal
+                <input type="text" name="goal" required />
+              </label>
+              <label>
+                Preferred Format
+                <select name="format" required>
+                  <option value="">Select</option>
+                  <option value="in-person">In-Person</option>
+                  <option value="hybrid">Hybrid</option>
+                  <option value="online">Online</option>
+                </select>
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="4" placeholder="Tell me what you want to change and what has been holding you back."></textarea>
+              </label>
+              <button class="btn btn-primary btn-full" type="submit">Send Application</button>
+              <p class="microcopy">No pressure. Clear next steps.</p>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-sm" id="locations">
+        <div class="container contact-location-wrap">
+          <div class="contact-location-head">
+            <p class="eyebrow eyebrow-dark">Training Locations</p>
+            <h2>Where we can train in Toronto</h2>
+            <p>
+              In-person coaching is by appointment only. We choose the location based on your schedule, commute, and training needs.
+            </p>
+          </div>
+          <div class="map-card-grid">
+            <article class="map-card">
+              <div>
+                <span>Leslieville / East Toronto</span>
+                <h3>Fortis Fitness</h3>
+                <p>11 Carlaw Avenue, Units 1-3<br />Toronto, ON M4M 2R6</p>
+              </div>
+              <iframe
+                title="Map to Fortis Fitness"
+                src="https://www.google.com/maps?q=11%20Carlaw%20Avenue%20Units%201-3%20Toronto%20ON%20M4M%202R6&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </article>
+            <article class="map-card">
+              <div>
+                <span>Downtown / Entertainment District</span>
+                <h3>Fit Squad Training Gym</h3>
+                <p>111 Peter St., Suite 102<br />Toronto, ON M5V 2H1</p>
+              </div>
+              <iframe
+                title="Map to Fit Squad Training Gym"
+                src="https://www.google.com/maps?q=111%20Peter%20St%20Suite%20102%20Toronto%20ON%20M5V%202H1&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Ethan Cole Strength Coaching — Toronto, Canada</p>
+        <div class="footer-links">
+          <a href="./programs.html">Programs</a>
+          <a href="./blog.html">Blog</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="./about.html#locations">Fortis Fitness</a>
+          <a href="./about.html#locations">Fit Squad Training Gym</a>
+        </div>
+      </div>
+    </footer>
+
+    <a class="mobile-cta btn btn-primary" href="#contact-form">Book a Free Consultation</a>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -14,19 +14,17 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=23" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#home">Ethan Cole</a>
         <nav class="desktop-nav" aria-label="Main navigation">
-          <a href="#home" aria-current="page">Home</a>
+          <a href="./programs.html">Programs</a>
           <a href="./about.html">About</a>
-          <a href="#services">Services</a>
-          <a href="#results">Results</a>
           <a href="./blog.html">Blog</a>
-          <a href="#faq">FAQ</a>
+          <a href="./faq.html">FAQ</a>
           <a href="./contact.html">Contact</a>
         </nav>
         <div class="header-right">
@@ -45,7 +43,7 @@
         <div class="container hero-grid">
           <div class="hero-content">
             <p class="eyebrow">Toronto Science-Based Strength Coaching</p>
-            <h1>Build muscle with a coach who understands how your body adapts.</h1>
+            <h1>Build muscle with a coach&nbsp;who understands how your body adapts.</h1>
             <p class="hero-subhead">
               Kinesiology-informed physique coaching for people who want visible progress, better technique, and smarter training without reckless loading.
             </p>
@@ -61,15 +59,38 @@
         </div>
       </section>
 
-      <section class="expectation-note section-sm">
-        <div class="container note-box">
-          <h2>The difference</h2>
-          <p class="note-lead">
-            Strength coaching with a kinesiology lens, not random hard workouts.
-          </p>
-          <p>
-            Every plan starts with how you move, recover, and respond to training. Then we build visible muscle through better exercise selection, progressive overload, and adjustments based on real performance, not guesswork.
-          </p>
+      <section class="section section-alt" id="programs">
+        <div class="container">
+          <div class="programs-section-head">
+            <div>
+              <p class="eyebrow eyebrow-dark">Signature paths</p>
+              <h2>Author Programs</h2>
+              <p class="section-lead">
+                Structured coaching tracks—not app templates. Choose the path that matches where you are today.
+              </p>
+            </div>
+            <a class="btn btn-primary programs-all-link" href="./programs.html">View all programs</a>
+          </div>
+          <div class="program-home-grid">
+            <article class="program-home-card">
+              <p class="program-home-label">Beginners</p>
+              <h3>Foundation 12</h3>
+              <p>Twelve weeks, technique first—barbell patterns you can repeat before load climbs.</p>
+              <a class="btn btn-primary" href="./program-foundation-12.html">Learn more</a>
+            </article>
+            <article class="program-home-card">
+              <p class="program-home-label">Returning lifters</p>
+              <h3>Return Protocol</h3>
+              <p>Rebuild squat and hinge after time away—small steps, no ego resets.</p>
+              <a class="btn btn-light" href="./program-return-protocol.html">Learn more</a>
+            </article>
+            <article class="program-home-card">
+              <p class="program-home-label">Busy schedules</p>
+              <h3>Minimum Dose</h3>
+              <p>Two or three effective sessions per week when work owns the calendar.</p>
+              <a class="btn btn-primary" href="./program-minimum-dose.html">Learn more</a>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -93,40 +114,53 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="about">
-        <div class="container">
-          <div class="about-layout">
-            <div>
-              <h2>About your coach</h2>
-              <p class="section-lead">
-                I am Ethan Cole, a Toronto strength and physique coach with 15+ years of experience and a kinesiology-based approach.
-              </p>
-              <p>
-                I help beginners, returning lifters, and busy adults build visible muscle with better movement, smarter progression, and training decisions that respect recovery.
-              </p>
-              <ul class="proof-points">
-                <li>BKin, University of Toronto</li>
-                <li>CSEP Clinical Exercise Physiologist</li>
-                <li>NSCA Certified Strength & Conditioning Specialist</li>
-                <li>15+ years coaching experience</li>
-                <li>Fortis Fitness + Fit Squad Training Gym</li>
-              </ul>
-              <a class="btn btn-primary about-read-more" href="./about.html">Read More About Ethan</a>
+      <section class="section about-home-spotlight" id="about">
+        <div class="container coach-profile-card about-home-card">
+          <figure class="coach-photo photo-frame">
+            <img
+              src="./trainer2.jpg?v=2"
+              alt="Portrait of strength coach Ethan Cole"
+              width="768"
+              height="1032"
+              loading="lazy"
+            />
+            <figcaption>Ethan Cole, BKin, CSEP-CEP, CSCS</figcaption>
+          </figure>
+
+          <div class="coach-bio">
+            <p class="eyebrow eyebrow-dark">About your coach</p>
+            <h2>Ethan Cole</h2>
+            <p class="coach-title">
+              Toronto strength and physique coach with 15+ years of experience and a kinesiology-based approach to hypertrophy and strength.
+            </p>
+            <p>
+              I work with beginners, returning lifters, and busy adults who want visible muscle without random workouts or reckless loading—movement assessment, clear progression, and adjustments based on how you actually recover.
+            </p>
+
+            <div class="coach-highlights" aria-label="Coach highlights">
+              <div>
+                <strong>15+ years</strong>
+                <span>coaching experience</span>
+              </div>
+              <div>
+                <strong>BKin</strong>
+                <span>University of Toronto</span>
+              </div>
+              <div>
+                <strong>Toronto</strong>
+                <span>Fortis · Fit Squad · online</span>
+              </div>
             </div>
-            <figure class="about-photo photo-frame">
-              <img
-                src="./trainer-portrait.svg"
-                alt="Portrait of Ethan Cole in a gym setting"
-                loading="lazy"
-              />
-            </figure>
+
+            <a class="btn btn-primary about-read-more" href="./about.html">Read More About Ethan</a>
           </div>
         </div>
       </section>
 
-      <section class="section" id="services">
+      <section class="section section-alt" id="services">
         <div class="container">
           <h2>Coaching Services</h2>
+          <p class="section-lead">How we work together—in the gym, hybrid, or online. Pair any format with an <a href="./programs.html">author program</a>.</p>
           <div class="cards cards-2">
             <article class="card">
               <h3>1:1 In-Person Coaching (Toronto)</h3>
@@ -163,9 +197,10 @@
               <p class="result-blurb">
                 Zero barbell consistency before we started. Upper/lower split, technique first, then load. Chest and shoulders filled in; numbers climbed in small weekly steps.
               </p>
+              <a class="result-program-link" href="./program-foundation-12.html">Foundation 12 program</a>
               <figure class="photo-frame result-card-photo" aria-label="Alex progress photo">
                 <img
-                  src="./one1.jpg"
+                  src="./one2.jpg"
                   alt="Alex — coaching progress snapshot"
                   width="1200"
                   height="675"
@@ -181,8 +216,15 @@
               <p class="result-blurb">
                 Downtown schedule, recomposition goal. Hands-on at Fit Squad plus online programming. Waist down, shoulders and legs fuller; pull-ups to full reps.
               </p>
-              <figure class="photo-frame result-card-photo" aria-label="Photo placeholder for Priya">
-                <div class="result-photo-placeholder">Photo</div>
+              <a class="result-program-link" href="./program-minimum-dose.html">Minimum Dose program</a>
+              <figure class="photo-frame result-card-photo" aria-label="Priya progress photo">
+                <img
+                  src="./girl1.jpg"
+                  alt="Priya — coaching progress snapshot"
+                  width="1200"
+                  height="675"
+                  loading="lazy"
+                />
               </figure>
               <p class="result-quote">“Hybrid was the only honest fit for my job.” <span class="result-quote-by">— Priya</span></p>
               <a class="btn btn-primary result-read-more" href="./case-priya.html">Read full case study</a>
@@ -193,8 +235,15 @@
               <p class="result-blurb">
                 18 months off consistent lifting; low-back history managed with clinical clearance. Rebuilt squat and hinge, small weekly steps. Stable baseline, month-five photos and loads up.
               </p>
-              <figure class="photo-frame result-card-photo" aria-label="Photo placeholder for Chris">
-                <div class="result-photo-placeholder">Photo</div>
+              <a class="result-program-link" href="./program-return-protocol.html">Return Protocol program</a>
+              <figure class="photo-frame result-card-photo" aria-label="Chris progress photo">
+                <img
+                  src="./31.jpg"
+                  alt="Chris — coaching progress snapshot"
+                  width="1200"
+                  height="675"
+                  loading="lazy"
+                />
               </figure>
               <p class="result-quote">“I needed progressions I could trust.” <span class="result-quote-by">— Chris</span></p>
               <a class="btn btn-primary result-read-more" href="./case-chris.html">Read full case study</a>
@@ -203,14 +252,14 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="blog">
+      <section class="section" id="blog">
         <div class="container">
           <div class="blog-section-head">
             <div>
               <p class="eyebrow eyebrow-dark">Training insights</p>
               <h2>Blog</h2>
               <p class="section-lead">
-                Practical notes on hypertrophy habits, workload management, and how I think about adaptation for beginners, commuters, and lifters restarting after time away.
+                Practical notes on hypertrophy, workload, and how I think about adaptation for lifters at every stage.
               </p>
             </div>
             <a class="btn btn-primary blog-all-link" href="./blog.html">View all articles</a>
@@ -286,39 +335,6 @@
         </div>
       </section>
 
-      <section class="section" id="faq">
-        <div class="container">
-          <h2>Frequently Asked Questions</h2>
-          <div class="faq-list">
-            <details>
-              <summary>Can I start if I’ve never lifted before?</summary>
-              <p>Yes. Beginners often improve quickly when technique, load, and recovery are managed properly.</p>
-            </details>
-            <details>
-              <summary>What happens in the first 12 weeks?</summary>
-              <p>We build your foundation: assessment, technique, exercise selection, recovery habits, and a progression model you can continue using.</p>
-            </details>
-            <details>
-              <summary>How fast can I build visible muscle?</summary>
-              <p>Visible changes usually take weeks to months, depending on consistency, sleep, nutrition, stress, training age, and genetics.</p>
-            </details>
-            <details>
-              <summary>Do I need to feel sore to make progress?</summary>
-              <p>No. DOMS can happen, but soreness is not a reliable indicator of progress.</p>
-            </details>
-            <details>
-              <summary>What if I have back, knee, or shoulder pain?</summary>
-              <p>Training can often be modified around tolerance, but persistent or worsening pain should be assessed by a licensed medical professional.</p>
-            </details>
-            <details>
-              <summary>Do I need medical clearance before training?</summary>
-              <p>If you have cardiovascular disease, uncontrolled hypertension, recent surgery, neurological symptoms, or other medical conditions, get physician clearance first.</p>
-            </details>
-          </div>
-          <a class="btn btn-primary" href="./contact.html#contact-form">Book a Free Consultation</a>
-        </div>
-      </section>
-
       <section class="section section-alt" id="contact">
         <div class="container contact-grid">
           <div>
@@ -369,7 +385,9 @@
       <div class="container footer-inner">
         <p>Ethan Cole Strength Coaching — Toronto, Canada</p>
         <div class="footer-links">
+          <a href="./programs.html">Programs</a>
           <a href="./blog.html">Blog</a>
+          <a href="./faq.html">FAQ</a>
           <a href="#">Privacy Policy</a>
           <a href="#">Terms &amp; Conditions</a>
           <a href="./about.html#locations">Fortis Fitness</a>
