@@ -2092,6 +2092,16 @@ textarea:focus {
 }
 
 @media (max-width: 1100px) {
+  .site-header {
+    position: fixed;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    -webkit-backface-visibility: hidden;
+  }
+
   .desktop-nav {
     display: none;
   }
