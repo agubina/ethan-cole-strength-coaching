@@ -2046,6 +2046,32 @@ textarea:focus {
   font-size: 0.98rem;
 }
 
+.article-references {
+  margin: 1.5rem 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.article-references li + li {
+  margin-top: 0.55rem;
+}
+
+.article-references em {
+  font-style: italic;
+}
+
+.article-prose > h3 {
+  max-width: none;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
 .article-cta-band {
   margin-top: 2.5rem;
   padding-top: 1.75rem;
