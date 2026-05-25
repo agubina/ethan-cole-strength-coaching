@@ -1,16 +1,3 @@
-(function() {
-  var h = document.querySelector('.site-header');
-  if (!h) return;
-  var s = h.style;
-  s.position = 'fixed';
-  s.top = '0';
-  s.left = '0';
-  s.right = '0';
-  s.width = '100%';
-  s.zIndex = '9999';
-  document.body.style.paddingTop = h.offsetHeight + 'px';
-})();
-
 const forms = document.querySelectorAll("form");
 
 forms.forEach((form) => {
