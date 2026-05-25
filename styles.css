@@ -38,10 +38,6 @@ body {
   line-height: 1.45;
 }
 
-html, body {
-  overflow-x: clip;
-}
-
 main {
   padding-top: var(--site-header-height);
   overflow-x: hidden;
