@@ -201,6 +201,14 @@ p {
   display: none;
 }
 
+.burger-btn {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -2155,6 +2163,97 @@ textarea:focus {
     stroke: none;
   }
 
+  .burger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4.5px;
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+    margin-left: 0.35rem;
+    background: var(--surface-soft);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .burger-line {
+    display: block;
+    width: 100%;
+    height: 2.5px;
+    background: var(--text);
+    border-radius: 2px;
+    transition: transform 260ms ease, opacity 200ms ease;
+  }
+
+  .burger-btn[aria-expanded="true"] .burger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .burger-btn[aria-expanded="true"] .burger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-btn[aria-expanded="true"] .burger-line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid var(--stroke);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+    padding: 0.6rem 1rem 1rem;
+    z-index: 100;
+  }
+
+  .mobile-nav.open {
+    display: flex;
+  }
+
+  .mobile-nav > a {
+    display: block;
+    padding: 0.72rem 0.6rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+    border-bottom: 1px solid var(--stroke);
+  }
+
+  .mobile-nav > a:last-of-type {
+    border-bottom: none;
+  }
+
+  .mobile-nav-clubs {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.65rem 0.6rem;
+    border-bottom: 1px solid var(--stroke);
+  }
+
+  .mobile-nav-clubs a {
+    border-radius: 999px;
+    background: var(--surface-soft);
+    padding: 0.42rem 0.62rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text);
+    white-space: nowrap;
+  }
+
+  .mobile-nav-cta {
+    margin-top: 0.65rem;
+    width: 100%;
+    text-align: center;
+  }
+
   .note-box,
   .about-layout,
   .trainer-hero-grid,
@@ -2262,7 +2361,10 @@ textarea:focus {
     min-height: 720px;
     padding-top: 5.5rem;
     padding-bottom: 6rem;
-    background-position: 58% center;
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.52) 38%, rgba(0, 0, 0, 0.12) 76%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.12)),
+      url("./фонмобила.jpg") center / cover no-repeat;
   }
 
   h1 {

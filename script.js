@@ -20,3 +20,20 @@ forms.forEach((form) => {
     }, 1600);
   });
 });
+
+const burgerBtn = document.querySelector(".burger-btn");
+const mobileNav = document.getElementById("mobile-nav");
+
+if (burgerBtn && mobileNav) {
+  burgerBtn.addEventListener("click", () => {
+    const isOpen = mobileNav.classList.toggle("open");
+    burgerBtn.setAttribute("aria-expanded", isOpen);
+  });
+
+  mobileNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileNav.classList.remove("open");
+      burgerBtn.setAttribute("aria-expanded", "false");
+    });
+  });
+}
