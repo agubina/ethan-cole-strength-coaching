@@ -14,23 +14,57 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=31" />
+    <link rel="stylesheet" href="./styles.css?v=47" />
+      <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#home">Ethan Cole</a>
         <nav class="desktop-nav" aria-label="Main navigation">
-          <a href="./programs.html">Programs</a>
-          <a href="./about.html">About</a>
-          <a href="./blog.html">Blog</a>
+          <div class="nav-item has-dropdown">
+            <a href="./programs.html">Programs</a>
+            <div class="dropdown">
+              <a href="./programs.html">All programs</a>
+              <a href="./program-foundation-12.html">Foundation 12</a>
+              <a href="./program-return-protocol.html">Return Protocol</a>
+              <a href="./program-minimum-dose.html">Minimum Dose</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <a href="./in-person-coaching.html">Services</a>
+            <div class="dropdown">
+              <a href="./in-person-coaching.html">1:1 In-Person</a>
+              <a href="./hybrid-coaching.html">Hybrid Coaching</a>
+              <a href="./online-coaching.html">Online Coaching</a>
+              <a href="./nutrition-coaching.html">Nutrition Structure</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <a href="./about.html">About</a>
+            <div class="dropdown">
+              <a href="./about.html">About Ethan</a>
+              <a href="./fortis-fitness.html">Fortis Fitness (Leslieville)</a>
+              <a href="./fit-squad.html">Fit Squad (Downtown)</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <a href="./blog.html">Blog</a>
+            <div class="dropdown">
+              <a href="./blog.html">All articles</a>
+              <a href="./blog-muscle-soreness-progress.html">Muscle Soreness &amp; Progress</a>
+              <a href="./blog-minimal-training-busy-job.html">Minimum Training Dose</a>
+              <a href="./blog-returning-to-the-gym.html">Returning to the Gym</a>
+              <a href="./blog.html#case-studies">Case studies</a>
+            </div>
+          </div>
           <a href="./faq.html">FAQ</a>
           <a href="./contact.html">Contact</a>
         </nav>
         <div class="header-right">
           <div class="club-links" aria-label="Training locations">
-            <a href="./about.html#locations">Fortis Fitness</a>
-            <a href="./about.html#locations">Fit Squad</a>
+            <a href="./fortis-fitness.html">Fortis Fitness</a>
+            <a href="./fit-squad.html">Fit Squad</a>
           </div>
           <a class="btn btn-primary header-cta" href="./contact.html#contact-form">Book a Free Consultation</a>
           <a class="btn btn-primary mobile-header-cta" href="./contact.html#contact-form">Book</a>
@@ -43,13 +77,14 @@
 
         <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
           <a href="./programs.html">Programs</a>
+          <a href="./in-person-coaching.html">Services</a>
           <a href="./about.html">About</a>
           <a href="./blog.html">Blog</a>
           <a href="./faq.html">FAQ</a>
           <a href="./contact.html">Contact</a>
           <div class="mobile-nav-clubs">
-            <a href="./about.html#locations">Fortis Fitness</a>
-            <a href="./about.html#locations">Fit Squad</a>
+            <a href="./fortis-fitness.html">Fortis Fitness</a>
+            <a href="./fit-squad.html">Fit Squad</a>
           </div>
           <a class="btn btn-primary mobile-nav-cta" href="./contact.html#contact-form">Book a Free Consultation</a>
         </nav>
@@ -84,7 +119,7 @@
               <p class="eyebrow eyebrow-dark">Signature paths</p>
               <h2>Author Programs</h2>
               <p class="section-lead">
-                Structured coaching tracks—not app templates. Choose the path that matches where you are today.
+                Structured coaching tracks — not app templates. Choose the path that matches where you are today.
               </p>
             </div>
             <a class="btn btn-primary programs-all-link" href="./programs.html">View all programs</a>
@@ -93,13 +128,13 @@
             <article class="program-home-card">
               <p class="program-home-label">Beginners</p>
               <h3>Foundation 12</h3>
-              <p>Twelve weeks, technique first—barbell patterns you can repeat before load climbs.</p>
+              <p>Twelve weeks, technique first — barbell patterns you can repeat before load climbs.</p>
               <a class="btn btn-primary" href="./program-foundation-12.html">Learn more</a>
             </article>
             <article class="program-home-card">
               <p class="program-home-label">Returning lifters</p>
               <h3>Return Protocol</h3>
-              <p>Rebuild squat and hinge after time away—small steps, no ego resets.</p>
+              <p>Rebuild squat and hinge after time away — small steps, no ego resets.</p>
               <a class="btn btn-light" href="./program-return-protocol.html">Learn more</a>
             </article>
             <article class="program-home-card">
@@ -152,7 +187,7 @@
               Toronto strength and physique coach with 15+ years of experience and a kinesiology-based approach to hypertrophy and strength.
             </p>
             <p>
-              I work with beginners, returning lifters, and busy adults who want visible muscle without random workouts or reckless loading—movement assessment, clear progression, and adjustments based on how you actually recover.
+              I work with beginners, returning lifters, and busy adults who want visible muscle without random workouts or reckless loading — movement assessment, clear progression, and adjustments based on how you actually recover.
             </p>
 
             <div class="coach-highlights" aria-label="Coach highlights">
@@ -175,10 +210,39 @@
         </div>
       </section>
 
+      <section class="section section-alt">
+        <div class="container">
+          <p class="eyebrow eyebrow-dark">Inside the gym</p>
+          <h2>Coaching in action</h2>
+          <p class="section-lead">Real sessions at Fortis Fitness and Fit Squad — what training together actually looks like.</p>
+          <div class="gallery" aria-roledescription="carousel" aria-label="Coaching in action">
+            <div class="gallery-track">
+              <figure class="gallery-slide">
+                <img src="./ingym1.jpg" alt="Ethan Cole training with a barbell at Fortis Fitness." loading="lazy" />
+              </figure>
+              <figure class="gallery-slide">
+                <img src="./ingym2.jpg" alt="Ethan Cole shaking hands with a client at Fortis Fitness." loading="lazy" />
+              </figure>
+              <figure class="gallery-slide">
+                <img src="./in2gym2.jpg" alt="Ethan Cole shaking hands with a client at Fit Squad Training Gym." loading="lazy" />
+              </figure>
+              <figure class="gallery-slide">
+                <img src="./in2gym1.jpg" alt="Ethan Cole giving a thumbs-up by the Fit Squad wall logo." loading="lazy" />
+              </figure>
+              <figure class="gallery-slide">
+                <img src="./ingym3.jpg" alt="Ethan Cole giving a thumbs-up by the Fortis Fitness wall logo." loading="lazy" />
+              </figure>
+            </div>
+            <button class="gallery-btn gallery-prev" type="button" aria-label="Previous photo">‹</button>
+            <button class="gallery-btn gallery-next" type="button" aria-label="Next photo">›</button>
+          </div>
+        </div>
+      </section>
+
       <section class="section section-alt" id="services">
         <div class="container">
           <h2>Coaching Services</h2>
-          <p class="section-lead">How we work together—in the gym, hybrid, or online. Pair any format with an <a href="./programs.html">author program</a>.</p>
+          <p class="section-lead">How we work together — in the gym, hybrid, or online. Pair any format with an <a href="./programs.html">author program</a>.</p>
           <div class="cards cards-2">
             <article class="card">
               <h3>1:1 In-Person Coaching (Toronto)</h3>
@@ -225,7 +289,7 @@
                   loading="lazy"
                 />
               </figure>
-              <p class="result-quote">“I finally stopped guessing. I walk in knowing exactly what I am doing that day.” <span class="result-quote-by">— Alex</span></p>
+              <p class="result-quote">“I finally stopped guessing. I walk in knowing exactly what I am doing that day.” <span class="result-quote-by"> — Alex</span></p>
               <a class="btn btn-primary result-read-more" href="./case-alex.html">Read full case study</a>
             </article>
             <article class="result-card">
@@ -244,7 +308,7 @@
                   loading="lazy"
                 />
               </figure>
-              <p class="result-quote">“Hybrid was the only honest fit for my job.” <span class="result-quote-by">— Priya</span></p>
+              <p class="result-quote">“Hybrid was the only honest fit for my job.” <span class="result-quote-by"> — Priya</span></p>
               <a class="btn btn-primary result-read-more" href="./case-priya.html">Read full case study</a>
             </article>
             <article class="result-card">
@@ -263,7 +327,7 @@
                   loading="lazy"
                 />
               </figure>
-              <p class="result-quote">“I needed progressions I could trust.” <span class="result-quote-by">— Chris</span></p>
+              <p class="result-quote">“I needed progressions I could trust.” <span class="result-quote-by"> — Chris</span></p>
               <a class="btn btn-primary result-read-more" href="./case-chris.html">Read full case study</a>
             </article>
           </div>
@@ -291,8 +355,8 @@
               >
                 <figure class="blog-card-cover">
                   <img
-                    src="./blog-cover-soreness-recovery.png"
-                    alt="Close-up of shoulder and arm in gym with a lime brand-style pain-symbol icon overlay."
+                    src="./blog-cover-soreness-recovery.jpg"
+                    alt="Close-up of a muscular shoulder and arm resting between sets in a dark gym."
                     loading="lazy"
                   />
                 </figure>
@@ -300,7 +364,7 @@
               <div class="blog-card-body">
                 <h3>Muscle Soreness Is Not Proof of Progress</h3>
                 <p class="blog-card-excerpt">
-                  Why DOMS is an unreliable compass—and why a subdued week might still indicate intelligent coaching instead of catastrophe.
+                  Why DOMS is an unreliable compass — and why a subdued week might still indicate intelligent coaching instead of catastrophe.
                 </p>
                 <a class="btn btn-primary blog-card-readmore" href="./blog-muscle-soreness-progress.html">Read more</a>
               </div>
@@ -313,8 +377,8 @@
               >
                 <figure class="blog-card-cover">
                   <img
-                    src="./blog-cover-busy-professional.png"
-                    alt="Hand gripping a dumbbell in a gym interior with a lime minimum-dose icon overlay."
+                    src="./blog-cover-busy-professional.jpg"
+                    alt="A hand lifting a dumbbell off the rack in a dark gym."
                     loading="lazy"
                   />
                 </figure>
@@ -322,7 +386,7 @@
               <div class="blog-card-body">
                 <h3>Minimum Training Dose While Working Full-Time</h3>
                 <p class="blog-card-excerpt">
-                  Busy schedules thrive on repeatable weekly stimulus rather than burnout volume—ideas for structuring two or three effective sessions around real life constraints.
+                  Busy schedules thrive on repeatable weekly stimulus rather than burnout volume — ideas for structuring two or three effective sessions around real life constraints.
                 </p>
                 <a class="btn btn-primary blog-card-readmore" href="./blog-minimal-training-busy-job.html">Read more</a>
               </div>
@@ -335,8 +399,8 @@
               >
                 <figure class="blog-card-cover">
                   <img
-                    src="./blog-cover-returning-gym.png"
-                    alt="Gym entrance with light and a figure stepping inside, plus a lime return-to-training icon overlay."
+                    src="./blog-cover-returning-gym.jpg"
+                    alt="A lone figure walking into a brightly lit gym doorway."
                     loading="lazy"
                   />
                 </figure>
@@ -400,17 +464,44 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>Ethan Cole Strength Coaching — Toronto, Canada</p>
-        <div class="footer-links">
-          <a href="./programs.html">Programs</a>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <p class="footer-brand-name">Ethan Cole Strength Coaching</p>
+          <p class="footer-brand-tag">Kinesiology-informed strength &amp; physique coaching in Toronto and online.</p>
+          <a class="btn btn-primary footer-cta" href="./contact.html#contact-form">Book a Free Consultation</a>
+        </div>
+        <nav class="footer-col" aria-label="Site">
+          <h3 class="footer-col-title">Explore</h3>
+          <a href="./index.html#home">Home</a>
+          <a href="./about.html">About</a>
           <a href="./blog.html">Blog</a>
           <a href="./faq.html">FAQ</a>
-          <a href="#">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+        <nav class="footer-col" aria-label="Programs">
+          <h3 class="footer-col-title">Programs</h3>
+          <a href="./programs.html">All programs</a>
+          <a href="./program-foundation-12.html">Foundation 12</a>
+          <a href="./program-return-protocol.html">Return Protocol</a>
+          <a href="./program-minimum-dose.html">Minimum Dose</a>
+        </nav>
+        <nav class="footer-col" aria-label="Services">
+          <h3 class="footer-col-title">Services</h3>
+          <a href="./in-person-coaching.html">1:1 In-Person</a>
+          <a href="./hybrid-coaching.html">Hybrid Coaching</a>
+          <a href="./online-coaching.html">Online Coaching</a>
+          <a href="./nutrition-coaching.html">Nutrition Structure</a>
+        </nav>
+        <nav class="footer-col" aria-label="More">
+          <h3 class="footer-col-title">Locations &amp; legal</h3>
+          <a href="./fortis-fitness.html">Fortis Fitness</a>
+          <a href="./fit-squad.html">Fit Squad Training Gym</a>
+          <a href="./privacy.html">Privacy Policy</a>
           <a href="#">Terms &amp; Conditions</a>
-          <a href="./about.html#locations">Fortis Fitness</a>
-          <a href="./about.html#locations">Fit Squad Training Gym</a>
-        </div>
+        </nav>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Ethan Cole Strength Coaching — Toronto, Canada</p>
       </div>
     </footer>
 

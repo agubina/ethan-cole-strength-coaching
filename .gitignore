@@ -3,3 +3,18 @@ preview-mobile.png
 Снимок экрана*.png
 *.canvas.status.json
 *.lnk
+
+# Dependencies
+node_modules/
+
+# Secrets — never commit API keys
+xai.key
+.env
+*.local
+
+# Dev artifacts / drafts (not part of the live site)
+_*.png
+blog-cover-drafts/
+trainer-portrait-draft*.jpg
+fortfitness.avif
+тренер2.jpg

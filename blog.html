@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Strength and physique coaching notes from Ethan Cole—training science, recovery, and practical tips for Toronto and online lifters."
+      content="Strength and physique coaching notes from Ethan Cole — training science, recovery, and practical tips for Toronto and online lifters."
     />
     <title>Blog | Ethan Cole Strength Coaching</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,27 +14,80 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=5" />
+    <link rel="stylesheet" href="./styles.css?v=47" />
+      <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
   </head>
   <body>
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="./index.html#home">Ethan Cole</a>
         <nav class="desktop-nav" aria-label="Main navigation">
-          <a href="./programs.html">Programs</a>
-          <a href="./about.html">About</a>
-          <a href="./blog.html" aria-current="page">Blog</a>
+          <div class="nav-item has-dropdown">
+            <a href="./programs.html">Programs</a>
+            <div class="dropdown">
+              <a href="./programs.html">All programs</a>
+              <a href="./program-foundation-12.html">Foundation 12</a>
+              <a href="./program-return-protocol.html">Return Protocol</a>
+              <a href="./program-minimum-dose.html">Minimum Dose</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <a href="./in-person-coaching.html">Services</a>
+            <div class="dropdown">
+              <a href="./in-person-coaching.html">1:1 In-Person</a>
+              <a href="./hybrid-coaching.html">Hybrid Coaching</a>
+              <a href="./online-coaching.html">Online Coaching</a>
+              <a href="./nutrition-coaching.html">Nutrition Structure</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <a href="./about.html">About</a>
+            <div class="dropdown">
+              <a href="./about.html">About Ethan</a>
+              <a href="./fortis-fitness.html">Fortis Fitness (Leslieville)</a>
+              <a href="./fit-squad.html">Fit Squad (Downtown)</a>
+            </div>
+          </div>
+          <div class="nav-item has-dropdown">
+            <a href="./blog.html" aria-current="page">Blog</a>
+            <div class="dropdown">
+              <a href="./blog.html">All articles</a>
+              <a href="./blog-muscle-soreness-progress.html">Muscle Soreness &amp; Progress</a>
+              <a href="./blog-minimal-training-busy-job.html">Minimum Training Dose</a>
+              <a href="./blog-returning-to-the-gym.html">Returning to the Gym</a>
+              <a href="./blog.html#case-studies">Case studies</a>
+            </div>
+          </div>
           <a href="./faq.html">FAQ</a>
           <a href="./contact.html">Contact</a>
         </nav>
         <div class="header-right">
           <div class="club-links" aria-label="Training locations">
-            <a href="./about.html#locations">Fortis Fitness</a>
-            <a href="./about.html#locations">Fit Squad</a>
+            <a href="./fortis-fitness.html">Fortis Fitness</a>
+            <a href="./fit-squad.html">Fit Squad</a>
           </div>
           <a class="btn btn-primary header-cta" href="./contact.html#contact-form">Book a Free Consultation</a>
           <a class="btn btn-primary mobile-header-cta" href="./contact.html#contact-form">Book</a>
+          <button class="burger-btn" aria-label="Open menu" aria-expanded="false">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </button>
         </div>
+
+        <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+          <a href="./programs.html">Programs</a>
+          <a href="./in-person-coaching.html">Services</a>
+          <a href="./about.html">About</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./faq.html">FAQ</a>
+          <a href="./contact.html">Contact</a>
+          <div class="mobile-nav-clubs">
+            <a href="./fortis-fitness.html">Fortis Fitness</a>
+            <a href="./fit-squad.html">Fit Squad</a>
+          </div>
+          <a class="btn btn-primary mobile-nav-cta" href="./contact.html#contact-form">Book a Free Consultation</a>
+        </nav>
       </div>
     </header>
 
@@ -44,7 +97,7 @@
           <p class="eyebrow">Training insights</p>
           <h1>Blog</h1>
           <p class="blog-page-intro">
-            Notes on strength coaching, physiology, and what sustainable progress actually looks like for busy adults—written from how I coach in Toronto,
+            Notes on strength coaching, physiology, and what sustainable progress actually looks like for busy adults — written from how I coach in Toronto,
             online, and hybrid formats.
           </p>
           <div class="blog-index-grid" aria-label="Articles">
@@ -56,8 +109,8 @@
               >
                 <figure class="blog-card-cover">
                   <img
-                    src="./blog-cover-soreness-recovery.png"
-                    alt="Close-up of shoulder and arm in gym with a lime brand-style pain-symbol icon overlay."
+                    src="./blog-cover-soreness-recovery.jpg"
+                    alt="Close-up of a muscular shoulder and arm resting between sets in a dark gym."
                     loading="lazy"
                   />
                 </figure>
@@ -65,7 +118,7 @@
               <div class="blog-card-body">
                 <h3>Muscle Soreness Is Not Proof of Progress</h3>
                 <p class="blog-card-excerpt">
-                  If soreness is your scoreboard, you are optimizing for the wrong variable—and a quiet gym week might still fit a smart plan.
+                  If soreness is your scoreboard, you are optimizing for the wrong variable — and a quiet gym week might still fit a smart plan.
                 </p>
                 <a class="btn btn-primary blog-card-readmore" href="./blog-muscle-soreness-progress.html">Read more</a>
               </div>
@@ -78,8 +131,8 @@
               >
                 <figure class="blog-card-cover">
                   <img
-                    src="./blog-cover-busy-professional.png"
-                    alt="Hand gripping a dumbbell in a gym interior with a lime minimum-dose icon overlay."
+                    src="./blog-cover-busy-professional.jpg"
+                    alt="A hand lifting a dumbbell off the rack in a dark gym."
                     loading="lazy"
                   />
                 </figure>
@@ -87,7 +140,7 @@
               <div class="blog-card-body">
                 <h3>Minimum Viable Weekly Training for Busy Schedules</h3>
                 <p class="blog-card-excerpt">
-                  Full-time commitment does not demand living in the gym—here is how to think about a weekly dose that you can repeat for years.
+                  Full-time commitment does not demand living in the gym — here is how to think about a weekly dose that you can repeat for years.
                 </p>
                 <a class="btn btn-primary blog-card-readmore" href="./blog-minimal-training-busy-job.html">Read more</a>
               </div>
@@ -96,18 +149,18 @@
               <a
                 class="blog-card-image-link"
                 href="./blog-returning-to-the-gym.html"
-                aria-label="Read article: Coming back after a layoff—second start smarter than the first"
+                aria-label="Read article: Coming back after a layoff — second start smarter than the first"
               >
                 <figure class="blog-card-cover">
                   <img
-                    src="./blog-cover-returning-gym.png"
-                    alt="Gym entrance with light and a figure stepping inside, plus a lime return-to-training icon overlay."
+                    src="./blog-cover-returning-gym.jpg"
+                    alt="A lone figure walking into a brightly lit gym doorway."
                     loading="lazy"
                   />
                 </figure>
               </a>
               <div class="blog-card-body">
-                <h3>Returning After a Layoff—Smarter Than the First Time</h3>
+                <h3>Returning After a Layoff — Smarter Than the First Time</h3>
                 <p class="blog-card-excerpt">
                   Your tendon tolerance is not nostalgia. Practical ideas for rebuilding strength without re-injury or burnout.
                 </p>
@@ -121,7 +174,7 @@
               <p class="eyebrow eyebrow-dark">Client stories</p>
               <h2>Case studies</h2>
               <p class="section-lead blog-cases-lead">
-                Longer write-ups with how I assess, program, and adjust—separate from the shorter blog articles above. Same coaching standards: movement first, traceable progression, scope with clinicians when needed.
+                Longer write-ups with how I assess, program, and adjust — separate from the shorter blog articles above. Same coaching standards: movement first, traceable progression, scope with clinicians when needed.
               </p>
             </div>
             <div class="blog-cases-grid" aria-label="Case studies">
@@ -147,16 +200,44 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>Ethan Cole Strength Coaching — Toronto, Canada</p>
-        <div class="footer-links">
-          <a href="./programs.html">Programs</a>
-          <a href="./blog.html">Blog</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms &amp; Conditions</a>
-          <a href="./about.html#locations">Fortis Fitness</a>
-          <a href="./about.html#locations">Fit Squad Training Gym</a>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <p class="footer-brand-name">Ethan Cole Strength Coaching</p>
+          <p class="footer-brand-tag">Kinesiology-informed strength &amp; physique coaching in Toronto and online.</p>
+          <a class="btn btn-primary footer-cta" href="./contact.html#contact-form">Book a Free Consultation</a>
         </div>
+        <nav class="footer-col" aria-label="Site">
+          <h3 class="footer-col-title">Explore</h3>
+          <a href="./index.html#home">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./faq.html">FAQ</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+        <nav class="footer-col" aria-label="Programs">
+          <h3 class="footer-col-title">Programs</h3>
+          <a href="./programs.html">All programs</a>
+          <a href="./program-foundation-12.html">Foundation 12</a>
+          <a href="./program-return-protocol.html">Return Protocol</a>
+          <a href="./program-minimum-dose.html">Minimum Dose</a>
+        </nav>
+        <nav class="footer-col" aria-label="Services">
+          <h3 class="footer-col-title">Services</h3>
+          <a href="./in-person-coaching.html">1:1 In-Person</a>
+          <a href="./hybrid-coaching.html">Hybrid Coaching</a>
+          <a href="./online-coaching.html">Online Coaching</a>
+          <a href="./nutrition-coaching.html">Nutrition Structure</a>
+        </nav>
+        <nav class="footer-col" aria-label="More">
+          <h3 class="footer-col-title">Locations &amp; legal</h3>
+          <a href="./fortis-fitness.html">Fortis Fitness</a>
+          <a href="./fit-squad.html">Fit Squad Training Gym</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+        </nav>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Ethan Cole Strength Coaching — Toronto, Canada</p>
       </div>
     </footer>
 
