@@ -2848,10 +2848,59 @@ textarea:focus {
 }
 
 @media (max-width: 1100px) {
-  .mobile-nav {
-    position: absolute;
-    top: 100%;
+  .header-inner {
+    flex-wrap: wrap;
   }
+
+  .mobile-nav {
+    position: static;
+    width: 100%;
+    order: 3;
+  }
+}
+
+/* Mobile nav: accordion groups (same hierarchy as desktop) */
+.mobile-group {
+  border-bottom: 1px solid var(--stroke);
+}
+
+.mobile-group > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.72rem 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobile-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.mobile-group > summary::after {
+  content: "+";
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--text-muted);
+}
+
+.mobile-group[open] > summary::after {
+  content: "\2212";
+}
+
+.mobile-group > a {
+  display: block;
+  padding: 0.5rem 0.6rem 0.5rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.mobile-group > a:last-child {
+  padding-bottom: 0.85rem;
 }
 
 @media (max-width: 900px) {

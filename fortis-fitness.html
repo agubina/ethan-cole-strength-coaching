@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=47" />
+    <link rel="stylesheet" href="./styles.css?v=48" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
   </head>
   <body>
@@ -76,16 +76,36 @@
         </div>
 
         <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
-          <a href="./programs.html">Programs</a>
-          <a href="./in-person-coaching.html">Services</a>
-          <a href="./about.html">About</a>
-          <a href="./blog.html">Blog</a>
-          <a href="./faq.html">FAQ</a>
-          <a href="./contact.html">Contact</a>
-          <div class="mobile-nav-clubs">
-            <a href="./fortis-fitness.html">Fortis Fitness</a>
-            <a href="./fit-squad.html">Fit Squad</a>
-          </div>
+          <details class="mobile-group">
+            <summary>Programs</summary>
+            <a href="./programs.html">All programs</a>
+            <a href="./program-foundation-12.html">Foundation 12</a>
+            <a href="./program-return-protocol.html">Return Protocol</a>
+            <a href="./program-minimum-dose.html">Minimum Dose</a>
+          </details>
+          <details class="mobile-group">
+            <summary>Services</summary>
+            <a href="./in-person-coaching.html">1:1 In-Person</a>
+            <a href="./hybrid-coaching.html">Hybrid Coaching</a>
+            <a href="./online-coaching.html">Online Coaching</a>
+            <a href="./nutrition-coaching.html">Nutrition Structure</a>
+          </details>
+          <details class="mobile-group">
+            <summary>About</summary>
+            <a href="./about.html">About Ethan</a>
+            <a href="./fortis-fitness.html">Fortis Fitness (Leslieville)</a>
+            <a href="./fit-squad.html">Fit Squad (Downtown)</a>
+          </details>
+          <details class="mobile-group">
+            <summary>Blog</summary>
+            <a href="./blog.html">All articles</a>
+            <a href="./blog-muscle-soreness-progress.html">Muscle Soreness &amp; Progress</a>
+            <a href="./blog-minimal-training-busy-job.html">Minimum Training Dose</a>
+            <a href="./blog-returning-to-the-gym.html">Returning to the Gym</a>
+            <a href="./blog.html#case-studies">Case studies</a>
+          </details>
+          <a class="mobile-nav-direct" href="./faq.html">FAQ</a>
+          <a class="mobile-nav-direct" href="./contact.html">Contact</a>
           <a class="btn btn-primary mobile-nav-cta" href="./contact.html#contact-form">Book a Free Consultation</a>
         </nav>
       </div>
